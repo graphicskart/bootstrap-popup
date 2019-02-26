@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+.modal-footer {
+  justify-content: center;
+}
+
+.modal-body {
+  padding: 0px;
+}
+
+.modal-body, .modal-footer, .modal-header {
+  border: none;
+}
+
+.modal .btn {
+  border-radius: 25px;
+}
+
+.modal-contents {
+  padding: 20px 0;
+}
+
+.modal-footer-area {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 25px; 
+}
+
+.icon .far {
+  font-size: 100px;
+}
+
+.icon {
+  padding: 20px 0;
+}
+
+.danger .modal-header, .danger .modal-body, .danger .modal-footer {
+  background: #dc3545;
+  color: #fff;
+}
+
+.danger .modal-header .close {
+  color: #fff;
+}
+
+.danger .btn-danger {
+  background: #c82333;
+}
